@@ -11,8 +11,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForce;
     [SerializeField] private float fallGravityScale;
     
+    [SerializeField] private float speed;
+    [SerializeField] private bool smoothActivated;
+    [SerializeField] [Range(0f,0.3f)] private float movementSmooth = 0.3f;
+    
     private Rigidbody2D _body;
     private Animator _animator;
+    private Vector3 _velocity = Vector3.zero;
 
     public bool Grounded { get; private set; }
     
@@ -79,16 +84,19 @@ public class PlayerMovement : MonoBehaviour
     void GetInput()
     {
         XInput = Input.GetAxis("Horizontal");
-        Turn();
         if (Input.GetButtonDown("Jump")) _jump = true;
     }
 
     private void MoveWithInput()
     {
+        Turn();
+        
+        Vector3 targetVelocity = new Vector2(XInput * speed, _body.velocity.y);
+        _body.velocity = smoothActivated ? Vector3.SmoothDamp(_body.velocity, targetVelocity, ref _velocity, movementSmooth) : targetVelocity;
+        
         if (_jump && Grounded) {
             Grounded = false;
             _body.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
-            // TODO: Cambiar salto (máis controlable)
         }
         _jump = false;
     }
