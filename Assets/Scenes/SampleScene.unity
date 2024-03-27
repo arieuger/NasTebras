@@ -440,6 +440,8 @@ MonoBehaviour:
     m_Bits: 128
   jumpForce: 18
   fallGravityScale: 8.5
+  fallLongMult: 0.5
+  fallShortMult: 3.5
   speed: 9
   smoothActivated: 0
   movementSmooth: 0.3

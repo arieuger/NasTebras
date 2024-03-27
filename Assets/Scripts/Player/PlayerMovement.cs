@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -7,7 +8,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float jumpForce;
     [SerializeField] private float fallGravityScale;
+    [SerializeField] private float fallLongMult = 0.85f;
+    [SerializeField] private float fallShortMult = 1.55f;
     private bool _jump;
+    private bool _jumpHeld;
     public bool Grounded { get; private set; }
     private float _defaultGravityScale;
 
@@ -45,7 +49,6 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         GetInput();
-        MoveWithInput();
         SelectState();
         _state.Do();
     }
@@ -68,12 +71,14 @@ public class PlayerMovement : MonoBehaviour
     {
         CheckGround();
         CheckGravityScale();
+        MoveWithInput();
     }
 
     void GetInput()
     {
         XInput = Input.GetAxis("Horizontal");
-        if (Input.GetButtonDown("Jump")) _jump = true;
+        if (Input.GetButtonDown("Jump") && Grounded) _jump = true;
+        _jumpHeld = Input.GetButton("Jump") && !Grounded;
     }
 
     private void MoveWithInput()
@@ -83,12 +88,20 @@ public class PlayerMovement : MonoBehaviour
         Vector3 targetVelocity = new Vector2(XInput * speed, _body.velocity.y);
         _body.velocity = smoothActivated ? Vector3.SmoothDamp(_body.velocity, targetVelocity, ref _velocity, movementSmooth) : targetVelocity;
         
-        if (_jump && Grounded) {
+        if (_jump) {
             Grounded = false;
-            // _body.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             _body.velocity = new Vector2(_body.velocity.x, jumpForce);
+            _jump = false;
         }
-        _jump = false;
+
+        if (_jumpHeld && _body.velocity.y > 0)
+        {
+            _body.velocity += Vector2.up * (Physics2D.gravity.y * (fallLongMult - 1) * Time.fixedDeltaTime);
+        } else if (!_jumpHeld && _body.velocity.y > 0)
+        {
+            _body.velocity += Vector2.up * (Physics2D.gravity.y * (fallShortMult - 1) * Time.fixedDeltaTime);
+        }
+        
     }
 
     void CheckGround()
