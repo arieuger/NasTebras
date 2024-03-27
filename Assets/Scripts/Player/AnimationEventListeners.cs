@@ -9,7 +9,6 @@ public class AnimationEventListeners : MonoBehaviour
     {
         if (message.Equals("TransitionFallEnded"))
         {
-            Debug.Log("Holi");
             GetComponent<Animator>().Play("Fall");
         }
     }

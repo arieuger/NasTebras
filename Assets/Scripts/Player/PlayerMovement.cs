@@ -1,37 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header ("Jump and groundcheck")]
     [SerializeField] private BoxCollider2D groundCheck;
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float jumpForce;
     [SerializeField] private float fallGravityScale;
-    
+    private bool _jump;
+    public bool Grounded { get; private set; }
+    private float _defaultGravityScale;
+
+    [Header ("Movement and velocity")]
     [SerializeField] private float speed;
+
     [SerializeField] private bool smoothActivated;
     [SerializeField] [Range(0f,0.3f)] private float movementSmooth = 0.3f;
-    
-    private Rigidbody2D _body;
-    private Animator _animator;
+    public float XInput { private set; get; }
     private Vector3 _velocity = Vector3.zero;
 
-    public bool Grounded { get; private set; }
-    
-    public float XInput { get; private set; }
-    private bool _jump;
-    private float _defaultGravityScale;
-    private bool _lookingRight = true;
-
-    // States
+    [Header ("Animation States")]
     [SerializeField] private State idleState;
     [SerializeField] private State runState;
     [SerializeField] private State airState;
-    
     private State _state;
+
+    private Rigidbody2D _body;
+    private Animator _animator;
+    private bool _lookingRight = true;
     
     void Start()
     {
@@ -58,15 +54,8 @@ public class PlayerMovement : MonoBehaviour
     {
         State oldState = _state;
 
-        if (Grounded) {
-            if (XInput == 0) {
-                _state = idleState;
-            } else {
-                _state = runState;
-            }
-        } else {
-            _state = airState;
-        }
+        if (Grounded) _state = XInput == 0 ? idleState : runState;
+        else _state = airState;
 
         if (oldState != _state || oldState.IsComplete) {
             oldState.Exit();
@@ -96,7 +85,8 @@ public class PlayerMovement : MonoBehaviour
         
         if (_jump && Grounded) {
             Grounded = false;
-            _body.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            // _body.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            _body.velocity = new Vector2(_body.velocity.x, jumpForce);
         }
         _jump = false;
     }
