@@ -8,10 +8,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float jumpForce;
     [SerializeField] private float fallGravityScale;
-    [SerializeField] private float fallLongMult = 0.85f;
-    [SerializeField] private float fallShortMult = 1.55f;
+    [SerializeField] private float buttonTime = 0.5f;
+    [SerializeField] private float cancelRate = 100f;
     private bool _jump;
-    private bool _jumpHeld;
+    private bool _jumpCancelled;
+    private float _jumpTime;
     public bool Grounded { get; private set; }
     private float _defaultGravityScale;
 
@@ -49,8 +50,16 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         GetInput();
+        ManageJump();
         SelectState();
         _state.Do();
+    }
+
+    void FixedUpdate()
+    {
+        CheckGround();
+        CheckGravityScale();
+        MoveWithInput();
     }
 
     private void SelectState()
@@ -67,18 +76,29 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
-    {
-        CheckGround();
-        CheckGravityScale();
-        MoveWithInput();
-    }
-
     void GetInput()
     {
         XInput = Input.GetAxis("Horizontal");
-        if (Input.GetButtonDown("Jump") && Grounded) _jump = true;
-        _jumpHeld = Input.GetButton("Jump") && !Grounded;
+        if (Input.GetButtonDown("Jump") && Grounded) StartJump();
+    }
+
+    private void StartJump()
+    {
+        float calculatedJumpForce = Mathf.Sqrt(jumpForce * -2 * (Physics2D.gravity.y * _body.gravityScale));
+        _body.AddForce(new Vector2(0, calculatedJumpForce), ForceMode2D.Impulse);
+        _jump = true;
+        _jumpCancelled = false;
+        _jumpTime = 0;
+    }
+
+    private void ManageJump()
+    {
+        if (_jump)
+        {
+            _jumpTime += Time.deltaTime;
+            if (Input.GetButtonUp("Jump")) _jumpCancelled = true;
+            if (_jumpTime > buttonTime) _jump = false;
+        }
     }
 
     private void MoveWithInput()
@@ -88,25 +108,14 @@ public class PlayerMovement : MonoBehaviour
         Vector3 targetVelocity = new Vector2(XInput * speed, _body.velocity.y);
         _body.velocity = smoothActivated ? Vector3.SmoothDamp(_body.velocity, targetVelocity, ref _velocity, movementSmooth) : targetVelocity;
         
-        if (_jump) {
-            Grounded = false;
-            _body.velocity = new Vector2(_body.velocity.x, jumpForce);
-            _jump = false;
-        }
-
-        if (_jumpHeld && _body.velocity.y > 0)
-        {
-            _body.velocity += Vector2.up * (Physics2D.gravity.y * (fallLongMult - 1) * Time.fixedDeltaTime);
-        } else if (!_jumpHeld && _body.velocity.y > 0)
-        {
-            _body.velocity += Vector2.up * (Physics2D.gravity.y * (fallShortMult - 1) * Time.fixedDeltaTime);
-        }
+        if (_jumpCancelled && _jump && _body.velocity.y > 0) _body.AddForce(Vector2.down * cancelRate);
         
     }
 
     void CheckGround()
     {
         Grounded = Physics2D.OverlapAreaAll(groundCheck.bounds.min, groundCheck.bounds.max, groundMask).Length > 0;
+        // if (Grounded && _jump) _jump = false;
     }
     
     private void CheckGravityScale()
