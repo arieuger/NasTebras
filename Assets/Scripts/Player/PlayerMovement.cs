@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
     {
         State oldState = _state;
 
-        if (Grounded) _state = XInput == 0 ? idleState : runState;
+        if (Grounded) _state = XInput <= 0.2 && XInput >= -0.2 ? idleState : runState;
         else _state = airState;
 
         if (oldState != _state || oldState.IsComplete) {
