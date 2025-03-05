@@ -11,7 +11,7 @@ public class AirState : State
     
     public override void Enter()
     {
-        _verticalVelocity = Body.velocity.y;
+        _verticalVelocity = Body.linearVelocity.y;
         if (_verticalVelocity < -0.1f) _isFalling = true;
         StateAnimator.Play(_isFalling ? "Fall" : "Jump");
 
@@ -26,7 +26,7 @@ public class AirState : State
             return;
         }
 
-        _verticalVelocity = Body.velocity.y;
+        _verticalVelocity = Body.linearVelocity.y;
         _isFalling = _verticalVelocity <= 0;
 
         if (_isFalling && _lastIsFalling != _isFalling) StateAnimator.Play("TrJumpFall");

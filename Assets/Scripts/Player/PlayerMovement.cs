@@ -105,10 +105,10 @@ public class PlayerMovement : MonoBehaviour
     {
         Turn();
         
-        Vector3 targetVelocity = new Vector2(XInput * speed, _body.velocity.y);
-        _body.velocity = smoothActivated ? Vector3.SmoothDamp(_body.velocity, targetVelocity, ref _velocity, movementSmooth) : targetVelocity;
+        Vector3 targetVelocity = new Vector2(XInput * speed, _body.linearVelocity.y);
+        _body.linearVelocity = smoothActivated ? Vector3.SmoothDamp(_body.linearVelocity, targetVelocity, ref _velocity, movementSmooth) : targetVelocity;
         
-        if (_jumpCancelled && _jump && _body.velocity.y > 0) _body.AddForce(Vector2.down * cancelRate);
+        if (_jumpCancelled && _jump && _body.linearVelocity.y > 0) _body.AddForce(Vector2.down * cancelRate);
         
     }
 
@@ -120,7 +120,7 @@ public class PlayerMovement : MonoBehaviour
     
     private void CheckGravityScale()
     {
-        _body.gravityScale = _body.velocity.y < -0.1f ? fallGravityScale : _defaultGravityScale;
+        _body.gravityScale = _body.linearVelocity.y < -0.1f ? fallGravityScale : _defaultGravityScale;
     }
     
     private void Turn()
