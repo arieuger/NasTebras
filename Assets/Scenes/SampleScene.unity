@@ -807,7 +807,7 @@ Tilemap:
       - {fileID: 520692293, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
       - {fileID: -497428690, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
       - {fileID: 2020182155, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -15, y: -5, z: 0}
@@ -915,7 +915,7 @@ Tilemap:
       - {fileID: -742414156, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
       - {fileID: 1843148082, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
       - {fileID: 239385965, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -6, y: -5, z: 0}
@@ -1427,6 +1427,9 @@ MonoBehaviour:
   speed: 7
   smoothActivated: 0
   movementSmooth: 0.3
+  dashingVelocity: 24
+  dashingTime: 0.2
+  dashingCooldown: 1
   idleState: {fileID: 1296832250}
   runState: {fileID: 679255906}
   airState: {fileID: 1811882832}

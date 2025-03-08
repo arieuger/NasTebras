@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -24,6 +25,15 @@ public class PlayerMovement : MonoBehaviour
     public float XInput { private set; get; }
     private Vector3 _velocity = Vector3.zero;
 
+    [Header("Dashing")]
+    [SerializeField] private float dashingVelocity;
+    [SerializeField] private float dashingTime;
+    [SerializeField] private float dashingCooldown;
+    private Vector2 _dashingDirection;
+    private bool _isDashing;
+    private bool _canDash = true;
+    private bool _dashInput;
+    
     [Header ("Animation States")]
     [SerializeField] private State idleState;
     [SerializeField] private State runState;
@@ -50,6 +60,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         GetInput();
+        ManageDash();
         ManageJump();
         SelectState();
         _state.Do();
@@ -79,7 +90,8 @@ public class PlayerMovement : MonoBehaviour
     void GetInput()
     {
         XInput = Input.GetAxis("Horizontal");
-        if (Input.GetButtonDown("Jump") && Grounded) StartJump();
+        if (Input.GetButtonDown("Jump") && Grounded && !_isDashing) StartJump();
+        _dashInput = Input.GetKeyDown(KeyCode.X);
     }
 
     private void StartJump()
@@ -93,7 +105,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void ManageJump()
     {
-        if (_jump)
+        if (!_isDashing && _jump)
         {
             _jumpTime += Time.deltaTime;
             if (Input.GetButtonUp("Jump")) _jumpCancelled = true;
@@ -101,15 +113,39 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void ManageDash()
+    {
+        if (_dashInput && _canDash)
+        {
+            _canDash = false;
+            _isDashing = true;
+            StartCoroutine(DashCo());
+        }
+    }
+
+    private IEnumerator DashCo()
+    {
+        _body.gravityScale = 0;
+        _body.linearVelocity = new((_lookingRight ? 1 : -1) * dashingVelocity, 0);
+        
+        yield return new WaitForSeconds(dashingTime);
+
+        _body.gravityScale = _defaultGravityScale;
+        _isDashing = false;
+        
+        yield return new WaitForSeconds(dashingCooldown);
+        _canDash = true;
+    }
+
     private void MoveWithInput()
     {
-        Turn();
+        if (_isDashing) return;
         
+        Turn();
         Vector3 targetVelocity = new Vector2(XInput * speed, _body.linearVelocity.y);
         _body.linearVelocity = smoothActivated ? Vector3.SmoothDamp(_body.linearVelocity, targetVelocity, ref _velocity, movementSmooth) : targetVelocity;
-        
         if (_jumpCancelled && _jump && _body.linearVelocity.y > 0) _body.AddForce(Vector2.down * cancelRate);
-        
+
     }
 
     void CheckGround()
@@ -120,6 +156,7 @@ public class PlayerMovement : MonoBehaviour
     
     private void CheckGravityScale()
     {
+        if (_isDashing) return;
         _body.gravityScale = _body.linearVelocity.y < -0.1f ? fallGravityScale : _defaultGravityScale;
     }
     
