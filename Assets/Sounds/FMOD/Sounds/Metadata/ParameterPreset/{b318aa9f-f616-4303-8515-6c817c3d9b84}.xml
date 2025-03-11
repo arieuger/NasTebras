@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{b318aa9f-f616-4303-8515-6c817c3d9b84}">
+		<property name="name">
+			<value>TipoChan</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8d9218b0-a704-4549-ba0d-45d91fcb5602}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{42d05460-26ab-4595-9674-de2406263c9a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{42d05460-26ab-4595-9674-de2406263c9a}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Cemento</value>
+			<value>Madeira</value>
+			<value>Metal</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

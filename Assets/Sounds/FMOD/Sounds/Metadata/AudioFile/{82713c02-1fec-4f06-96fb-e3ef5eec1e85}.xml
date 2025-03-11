@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{82713c02-1fec-4f06-96fb-e3ef5eec1e85}">
+		<property name="assetPath">
+			<value>textura area-006.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.3189342403628117</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{419386e7-fc7c-4ffc-a159-8ab85d73da18}</destination>
+		</relationship>
+	</object>
+</objects>

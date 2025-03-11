@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{11cc0d9b-5026-43fe-95d6-e2eb59a1aae1}">
+		<property name="assetPath">
+			<value>zapato-011.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.1117913832199546</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{419386e7-fc7c-4ffc-a159-8ab85d73da18}</destination>
+		</relationship>
+	</object>
+</objects>
