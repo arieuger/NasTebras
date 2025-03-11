@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TrJumpFall
+  m_Name: DashStart
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 1395549973, guid: 9255b969839368538bf851c14c219d2b, type: 3}
+      value: {fileID: -3041100203173816740, guid: 1dcb041ee18b9efd28bf494ed148c14e, type: 3}
     - time: 0.083333336
-      value: {fileID: -1759268395, guid: 9255b969839368538bf851c14c219d2b, type: 3}
-    - time: 0.16666667
-      value: {fileID: 2136390891, guid: 9255b969839368538bf851c14c219d2b, type: 3}
+      value: {fileID: 3443844797124457920, guid: 1dcb041ee18b9efd28bf494ed148c14e, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,15 +46,14 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 1395549973, guid: 9255b969839368538bf851c14c219d2b, type: 3}
-    - {fileID: -1759268395, guid: 9255b969839368538bf851c14c219d2b, type: 3}
-    - {fileID: 2136390891, guid: 9255b969839368538bf851c14c219d2b, type: 3}
+    - {fileID: -3041100203173816740, guid: 1dcb041ee18b9efd28bf494ed148c14e, type: 3}
+    - {fileID: 3443844797124457920, guid: 1dcb041ee18b9efd28bf494ed148c14e, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.25
+    m_StopTime: 0.16666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -76,9 +73,9 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.16666667
-    functionName: AirAnimObserver
-    data: TransitionFallEnded
+  - time: 0
+    functionName: DashAnimObserver
+    data: StartDashEnded
     objectReferenceParameter: {fileID: 11500000, guid: 2345863bb07697d25a2e712806db96b3, type: 3}
     floatParameter: 0
     intParameter: 0

@@ -807,7 +807,7 @@ Tilemap:
       - {fileID: 520692293, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
       - {fileID: -497428690, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
       - {fileID: 2020182155, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -15, y: -5, z: 0}
@@ -915,7 +915,7 @@ Tilemap:
       - {fileID: -742414156, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
       - {fileID: 1843148082, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
       - {fileID: 239385965, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -6, y: -5, z: 0}
@@ -1322,7 +1322,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
   m_Name: 
@@ -1433,6 +1433,7 @@ MonoBehaviour:
   idleState: {fileID: 1296832250}
   runState: {fileID: 679255906}
   airState: {fileID: 1811882832}
+  dashState: {fileID: 1527896642}
 --- !u!96 &566527759
 TrailRenderer:
   serializedVersion: 3
@@ -5436,7 +5437,7 @@ Tilemap:
       - {fileID: 520692293, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
       - {fileID: -497428690, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
       - {fileID: 2020182155, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -21, y: -5, z: 0}
@@ -6036,6 +6037,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c5bdd235f3a30fad878985e6c3710ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1527896641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1527896643}
+  - component: {fileID: 1527896642}
+  m_Layer: 6
+  m_Name: Dash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1527896642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527896641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd399e160c1541da93650c688a429d34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1527896643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527896641}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1983896179}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1532157289
 GameObject:
   m_ObjectHideFlags: 0
@@ -6308,6 +6353,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1983896179}
+  - component: {fileID: 1983896180}
   m_Layer: 6
   m_Name: Behaviours
   m_TagString: Untagged
@@ -6331,8 +6377,21 @@ Transform:
   - {fileID: 1296832249}
   - {fileID: 679255905}
   - {fileID: 1811882831}
+  - {fileID: 1527896643}
   m_Father: {fileID: 566527757}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1983896180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983896178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd399e160c1541da93650c688a429d34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2095262633
 GameObject:
   m_ObjectHideFlags: 0

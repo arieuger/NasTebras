@@ -12,4 +12,12 @@ public class AnimationEventListeners : MonoBehaviour
             GetComponent<Animator>().Play("Fall");
         }
     }
+
+    public void DashAnimObserver(string message)
+    {
+        if (message.Equals("StartDashEnded"))
+        {
+            GetComponent<Animator>().Play("DashLoop");
+        }
+    }
 }
