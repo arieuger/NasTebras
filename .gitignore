@@ -83,4 +83,4 @@ crashlytics-build.properties
 fmod.log
 fmod_editor.log
 
-/[Aa]ssets/[Ss]ounds/FMOD/.cache
+/[Aa]ssets/[Ss]ounds/FMOD/Sounds/.cache
