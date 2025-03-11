@@ -44,6 +44,7 @@ namespace Player.StateMachine
                 sr.sprite = playerSprite.sprite;
                 sr.color = new Color(1f, 1f, 1f, 0.5f); // Transparente
                 smear.transform.position = transform.position;
+                smear.transform.localScale = StateInput.transform.localScale;
                 Destroy(smear, 0.1f);
                 yield return new WaitForSeconds(0.02f);
             }
