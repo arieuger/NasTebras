@@ -1394,7 +1394,7 @@ Transform:
   m_GameObject: {fileID: 566527755}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.48, y: -1.08, z: 0}
+  m_LocalPosition: {x: -15.447, y: -1.242, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4729,7 +4729,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.038855076, y: -0.70336825}
+  m_Offset: {x: 0.038855076, y: -0.56}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5653,7 +5653,7 @@ Tilemap:
       - {fileID: -1180178519, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
       - {fileID: -1637316371, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
       - {fileID: 2083655919, guid: ed42d77dc3b777a94839816235e99c96, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -3, y: -4, z: 0}
@@ -5898,7 +5898,7 @@ Transform:
   m_GameObject: {fileID: 1249551332}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.033, y: -0.162, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6066,6 +6066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd399e160c1541da93650c688a429d34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerSprite: {fileID: 1249551334}
 --- !u!4 &1527896643
 Transform:
   m_ObjectHideFlags: 0
@@ -6392,6 +6393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd399e160c1541da93650c688a429d34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerSprite: {fileID: 0}
 --- !u!1 &2095262633
 GameObject:
   m_ObjectHideFlags: 0
@@ -6458,7 +6460,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0361166, y: -0.18519992}
+  m_Offset: {x: 0.0361166, y: -0.09}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6468,7 +6470,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.25642586, y: 1.035875}
+  m_Size: {x: 0.25642586, y: 0.89}
   m_EdgeRadius: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
