@@ -1,7 +1,7 @@
-<REAPER_PROJECT 0.1 "6.65/linux-x86_64" 1741718156
+<REAPER_PROJECT 0.1 "6.65/linux-x86_64" 1741727651
   <NOTES 0 2
   >
-  RIPPLE 1
+  RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 129
   ENVATTACH 3
@@ -17,12 +17,12 @@
   VIDEO_CONFIG 0 0 256
   PANMODE 3
   CURSOR 0
-  ZOOM 71.04526911253259 0 0
+  ZOOM 71.04526911253262 0 0
   VZOOMEX 2 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 0
+  LOOP 1
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 7.5 40.5
-  SELECTION2 7.5 40.5
+  SELECTION 8 0
+  SELECTION2 8 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -97,8 +97,8 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 2 0
+    VOLPAN 0.24114017177058 0 -1 -1 1
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -110,7 +110,7 @@
     TRACKHEIGHT 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
-    FX 0
+    FX 1
     TRACKID {70A14942-6B22-518D-B359-D2983EF29B6F}
     PERF 0
     MIDIOUT -1
@@ -123,11 +123,11 @@
       BYPASS 0 0 0
       <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
         cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
-        IQAAAAQAAAAEAAAAAQAAAMgjF4nE3LRAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
-        8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
+        IQAAAAQAAAAEAAAAAQAAAAjRwoukjoFAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAAAAAJQp2r+XEZFA+mMiuWID8T8AAAAAAAAAQAEIAAAAAQAAAHp52GmXIZpAj+21oPfG
+        sD5/arx0kxgBQAEDAAAAAQAAADzcPdRgo7FAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
         AAAQAAAA
       >
-      FLOATPOS 0 0 0 0
+      FLOATPOS 169 472 644 435
       FXID {9DB40C90-8155-0A76-B08C-D45C4E103C92}
       WAK 0 0
     >
@@ -512,7 +512,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -523,17 +523,33 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 638 362 912 484
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
+        IQAAAAQAAAAEAAAAAQAAANMpuTSeM11AAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAGy0MIkgyH1Alw+S6R/j7D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+        8D8AAAAAAAAAQAEDAAAAAQAAAPt7ZVpmzZdAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 812 500 644 435
+      FXID {664A2CD0-2E0C-B9E6-45D7-E1E8335CA6DF}
+      WAK 0 0
+    >
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 0.22310657596372
+      LENGTH 0.23366666666667
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEOUT 1 0.197467 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {FDA488E3-0EC3-C38B-DE58-5A72E055A225}
       IID 537
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -549,14 +565,14 @@
     <ITEM
       POSITION 0.5
       SNAPOFFS 0
-      LENGTH 0.27222222222222
+      LENGTH 0.24391532606778
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEOUT 1 0.329903 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {1FF35EFE-B752-429C-496C-890E3A6DC381}
       IID 539
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -576,10 +592,10 @@
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEOUT 1 0.255836 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {E18B5567-F629-D512-641E-BCBC35FC50F4}
       IID 541
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -599,10 +615,10 @@
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEOUT 1 0.192626 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {3834061B-09D7-59AD-185A-779592F3AC41}
       IID 543
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -622,10 +638,10 @@
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEOUT 1 0.221806 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {89874653-A8C6-C5A9-1E8A-01696C4C2CDA}
       IID 545
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -645,10 +661,10 @@
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEOUT 1 0.243356 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {294F1178-5702-D33C-582E-DAF044C979B7}
       IID 547
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -668,10 +684,10 @@
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEOUT 1 0.249456 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {EFF62E1E-5AB1-405C-F245-E4455368745D}
       IID 549
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -691,10 +707,10 @@
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEOUT 1 0.260952 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {1B2E7A97-1639-2FEE-EAA9-CC3D1F18AF57}
       IID 551
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -708,7 +724,168 @@
       >
     >
     <ITEM
-      POSITION 4
+      POSITION 4.5
+      SNAPOFFS 0
+      LENGTH 0.19321995464853
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0.19322 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 1
+      IGUID {206F2317-A2F5-1372-9836-4D08FAAA84F2}
+      IID 561
+      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
+      VOLPAN 1 0 6.865611 -1
+      SOFFS 6.6509977324263
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {38811759-FB0C-5A27-DC23-AADE9A785191}
+      <SOURCE WAVE
+        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
+      >
+    >
+    <ITEM
+      POSITION 5
+      SNAPOFFS 0
+      LENGTH 0.20743764172336
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.207438 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 1
+      IGUID {0958B58E-9389-D09B-E024-2E1D33D05435}
+      IID 555
+      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
+      VOLPAN 1 0 6.865611 -1
+      SOFFS 5.5975283446712
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9FD6EB09-EB3E-14EB-B7C5-75C85DE22002}
+      <SOURCE WAVE
+        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.5
+      SNAPOFFS 0
+      LENGTH 0.25378684807256
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.253787 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 1
+      IGUID {7990EE25-D0B7-77B6-1132-98A9DB461C1A}
+      IID 563
+      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
+      VOLPAN 1 0 6.865611 -1
+      SOFFS 7.19349206349206
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5CACB227-BD03-1D5C-D624-81ED97B910FC}
+      <SOURCE WAVE
+        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
+      >
+    >
+    <ITEM
+      POSITION 6
+      SNAPOFFS 0
+      LENGTH 0.22210416666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.317256 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 1
+      IGUID {200FD5D4-C21B-D424-3298-A66901DAAF90}
+      IID 559
+      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
+      VOLPAN 1 0 6.865611 -1
+      SOFFS 6.1143537414966
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6CD3154A-DDFF-4387-8FBC-E4D4407BB8C6}
+      <SOURCE WAVE
+        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.5
+      SNAPOFFS 0
+      LENGTH 0.2556462585034
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.255646 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 1
+      IGUID {0AD06B25-A3E9-1519-5D25-66DDD692D687}
+      IID 565
+      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
+      VOLPAN 1 0 6.865611 -1
+      SOFFS 7.68399092970522
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D7459719-5FDC-FEC0-6197-B5A7AAAD9ECA}
+      <SOURCE WAVE
+        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
+      >
+    >
+    <ITEM
+      POSITION 7
+      SNAPOFFS 0
+      LENGTH 0.20177083333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.34068 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 1
+      IGUID {F041A27A-9142-141B-D9C6-FB2138DCD4CD}
+      IID 569
+      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
+      VOLPAN 1 0 6.865611 -1
+      SOFFS 8.75498866213152
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9110C3BF-C7B9-3688-6EA0-C54C05D28ABD}
+      <SOURCE WAVE
+        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.5
+      SNAPOFFS 0
+      LENGTH 0.18589583333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.253583 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 1
+      IGUID {AA5C3873-2C96-C22A-E6E6-4581E0883993}
+      IID 571
+      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
+      VOLPAN 1 0 6.865611 -1
+      SOFFS 9.28090702947846
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0AC13341-9930-2243-2BF7-26D0DBEB9B93}
+      <SOURCE WAVE
+        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.5
       SNAPOFFS 0
       LENGTH 0.39371882086168
       LOOP 1
@@ -730,181 +907,20 @@
         FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
       >
     >
-    <ITEM
-      POSITION 4.5
-      SNAPOFFS 0
-      LENGTH 0.19321995464853
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1.1 0 0 1 0 0 0
-      MUTE 0 0
-      MIXFLAG 1
-      SEL 0
-      IGUID {206F2317-A2F5-1372-9836-4D08FAAA84F2}
-      IID 561
-      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
-      VOLPAN 1 0 6.865611 -1
-      SOFFS 6.6509977324263
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {38811759-FB0C-5A27-DC23-AADE9A785191}
-      <SOURCE WAVE
-        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
-      >
-    >
-    <ITEM
-      POSITION 5
-      SNAPOFFS 0
-      LENGTH 0.20743764172336
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1.1 0 0 1 0 0 0
-      FADEOUT 1.1 0 0 1 0 0 0
-      MUTE 0 0
-      MIXFLAG 1
-      SEL 0
-      IGUID {0958B58E-9389-D09B-E024-2E1D33D05435}
-      IID 555
-      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
-      VOLPAN 1 0 6.865611 -1
-      SOFFS 5.5975283446712
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {9FD6EB09-EB3E-14EB-B7C5-75C85DE22002}
-      <SOURCE WAVE
-        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
-      >
-    >
-    <ITEM
-      POSITION 5.5
-      SNAPOFFS 0
-      LENGTH 0.25378684807256
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      MIXFLAG 1
-      SEL 0
-      IGUID {7990EE25-D0B7-77B6-1132-98A9DB461C1A}
-      IID 563
-      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
-      VOLPAN 1 0 6.865611 -1
-      SOFFS 7.19349206349206
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {5CACB227-BD03-1D5C-D624-81ED97B910FC}
-      <SOURCE WAVE
-        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
-      >
-    >
-    <ITEM
-      POSITION 6
-      SNAPOFFS 0
-      LENGTH 0.31725623582766
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      MIXFLAG 1
-      SEL 0
-      IGUID {200FD5D4-C21B-D424-3298-A66901DAAF90}
-      IID 559
-      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
-      VOLPAN 1 0 6.865611 -1
-      SOFFS 6.1143537414966
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {6CD3154A-DDFF-4387-8FBC-E4D4407BB8C6}
-      <SOURCE WAVE
-        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
-      >
-    >
-    <ITEM
-      POSITION 6.5
-      SNAPOFFS 0
-      LENGTH 0.2556462585034
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      MIXFLAG 1
-      SEL 0
-      IGUID {0AD06B25-A3E9-1519-5D25-66DDD692D687}
-      IID 565
-      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
-      VOLPAN 1 0 6.865611 -1
-      SOFFS 7.68399092970522
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {D7459719-5FDC-FEC0-6197-B5A7AAAD9ECA}
-      <SOURCE WAVE
-        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
-      >
-    >
-    <ITEM
-      POSITION 7
-      SNAPOFFS 0
-      LENGTH 0.34068027210884
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      MIXFLAG 1
-      SEL 0
-      IGUID {F041A27A-9142-141B-D9C6-FB2138DCD4CD}
-      IID 569
-      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
-      VOLPAN 1 0 6.865611 -1
-      SOFFS 8.75498866213152
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {9110C3BF-C7B9-3688-6EA0-C54C05D28ABD}
-      <SOURCE WAVE
-        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
-      >
-    >
-    <ITEM
-      POSITION 7.5
-      SNAPOFFS 0
-      LENGTH 0.25358276643991
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      MIXFLAG 1
-      SEL 0
-      IGUID {AA5C3873-2C96-C22A-E6E6-4581E0883993}
-      IID 571
-      NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
-      VOLPAN 1 0 6.865611 -1
-      SOFFS 9.28090702947846
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {0AC13341-9930-2243-2BF7-26D0DBEB9B93}
-      <SOURCE WAVE
-        FILE "Samples/328459__alexmurphy53__walking-on-a-concrete-floor.wav"
-      >
-    >
   >
   <TRACK {A30495F5-67DB-44C0-ADE5-A298D764B6DA}
     NAME "textura area"
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 0.18947831560292 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -915,6 +931,22 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 599 270 912 484
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
+        IQAAAAQAAAAEAAAAAQAAABvcchRu3oBAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+        8D8AAAAAAAAAQAEDAAAAAQAAAMpldYKY0sRAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {D086CF11-7307-ED63-F284-F4F6DC1CD00B}
+      WAK 0 0
+    >
     <ITEM
       POSITION 0
       SNAPOFFS 0
@@ -925,7 +957,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {AE9A3AC3-A7B4-2F5F-E5B1-EA72164EEA9F}
       IID 591
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -948,7 +980,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {03285BA1-BDE8-A85F-C369-58A36C2BF984}
       IID 593
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -971,7 +1003,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {5A001342-7F88-C261-88B2-70A80A9AB104}
       IID 595
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -994,7 +1026,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {DCAA0D3F-3A72-FA75-6E83-18D94BB3B576}
       IID 597
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1017,7 +1049,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {85241BEF-D011-4DAC-FA7D-8E1F9AFE1803}
       IID 599
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1040,7 +1072,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {54E3ACCC-B3AB-227B-390A-EBCC409D8CAA}
       IID 601
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1063,7 +1095,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {59534B31-F20F-6BD0-204F-F581F14D5D9B}
       IID 603
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1086,7 +1118,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {47D44E9F-DE46-935E-E879-1C994876D528}
       IID 605
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1109,7 +1141,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {B4C925CE-F48C-1B90-327C-5100B99FE36A}
       IID 607
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1132,7 +1164,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {2AB2C197-181F-4AAC-1EF0-1F8A01F43BC6}
       IID 609
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1155,7 +1187,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {4B6FD881-D40D-DCF2-AEDC-641090B1A7AA}
       IID 611
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1178,7 +1210,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {E288BFEC-ADE1-3215-D4DC-24A5DC1475B0}
       IID 613
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1201,7 +1233,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {1D9AC120-EC70-7DB0-0F09-CF36BA32517E}
       IID 615
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1224,7 +1256,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {FF8C6B72-82CD-EA35-D5AB-B23372458392}
       IID 617
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1247,7 +1279,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {2DA441E0-BAB9-526A-2402-1E91AEFCE78B}
       IID 619
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1270,7 +1302,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 0
+      SEL 1
       IGUID {A34E413A-D45C-158B-9763-2D998E55FE87}
       IID 621
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac

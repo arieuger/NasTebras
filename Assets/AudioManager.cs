@@ -6,7 +6,10 @@ public class AudioManager : MonoBehaviour
     // Singleton pattern
     public static AudioManager Instance { get; private set; }
 
-    private StudioEventEmitter emitter;
+    // Materials
+    public const string MATERIAL_CONCRETE = "concrete";
+
+    private StudioEventEmitter stepEmitter;
 
     private void Awake()
     {
@@ -21,15 +24,28 @@ public class AudioManager : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(this);
 
-            emitter = GetComponent<StudioEventEmitter>();
+            stepEmitter = GetComponent<StudioEventEmitter>();
         }
     }
 
-    public void PlaySound(string soundName)
+    // Movement sounds
+
+    public void StartRun(string material = MATERIAL_CONCRETE)
     {
-        Debug.Log("Playing sound: " + soundName);
-        emitter.Play();
+        InvokeRepeating("PlayStepSound", 0.01f, 0.25f);
     }
+
+    public void StopRun()
+    {
+        CancelInvoke("PlayStepSound");
+    }
+
+    private void PlayStepSound()
+    {
+        stepEmitter.Play();
+    }
+
+    // Music
 
     public void PlayMusic(string soundName)
     {
