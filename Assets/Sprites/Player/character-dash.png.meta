@@ -138,12 +138,12 @@ TextureImporter:
       name: character-dash_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 14
-        width: 21
-        height: 31
+        x: 18
+        y: 15
+        width: 19
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: character-dash_1
       rect:
         serializedVersion: 2
-        x: 65
+        x: 66
         y: 15
-        width: 35
-        height: 30
+        width: 33
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: character-dash_2
       rect:
         serializedVersion: 2
-        x: 116
+        x: 117
         y: 15
-        width: 41
-        height: 29
+        width: 42
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: character-dash_3
       rect:
         serializedVersion: 2
-        x: 176
+        x: 177
         y: 15
-        width: 40
-        height: 29
+        width: 41
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bea8bd458e5fc7605b0be8946c6b9f90
     internalID: 0
     vertices: []
     indices: 
