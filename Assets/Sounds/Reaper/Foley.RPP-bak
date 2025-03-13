@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.65/linux-x86_64" 1741726086
+<REAPER_PROJECT 0.1 "6.65/linux-x86_64" 1741884162
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,13 +16,13 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 0
-  ZOOM 71.04526911253262 0 0
-  VZOOMEX 2 0
+  CURSOR 1.5
+  ZOOM 50.47430263272207 0 0
+  VZOOMEX 4 128
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 1
+  LOOP 0
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 8 0
-  SELECTION2 8 0
+  SELECTION 1.99617028748398 2.07291093011494
+  SELECTION2 1.99617028748398 2.07291093011494
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -104,7 +104,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -116,7 +116,7 @@
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
-      WNDRECT 450 412 912 484
+      WNDRECT 591 727 912 484
       SHOW 0
       LASTSEL 0
       DOCKED 0
@@ -141,7 +141,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {0FE9D709-059F-8B81-738C-0ED163C288BB}
       IID 196
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -164,7 +164,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {90D7F6DB-8D70-6CBD-9FA7-237B74484B8E}
       IID 198
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -187,7 +187,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {D59433C8-518E-3AD9-A9DD-C6BF2B4E2C77}
       IID 200
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -210,7 +210,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {87F587A6-3EDC-D9F6-FFFA-EFB9463D2986}
       IID 202
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -233,7 +233,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {880518B9-738F-08CB-3C85-1A1F89815B91}
       IID 204
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -256,7 +256,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {EA7D4CFA-AB50-F8D5-4DE5-FBF5A5582B4A}
       IID 206
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -279,7 +279,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {701CE933-4BB0-3761-2512-DAAFC843039F}
       IID 210
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -302,7 +302,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {1B084822-52A8-58A0-371E-708F63E7E5CD}
       IID 212
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -325,7 +325,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {F3814B55-4D88-5CA9-F103-ADA658F2D32E}
       IID 214
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -348,7 +348,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {6D1D1776-9158-3777-6E74-206F371ECED1}
       IID 220
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -371,7 +371,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {7B481D6E-5EC6-B143-E7F6-78B2DEE8E107}
       IID 224
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -394,7 +394,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {5BF9AB53-6C88-1CCC-A3CC-3FE69AC07961}
       IID 226
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -417,7 +417,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {60BAEE93-BF3A-0EA1-E8E2-0A9E28FEBD99}
       IID 230
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -440,7 +440,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {A5783E7D-433B-30EE-7AF7-262E75ED5359}
       IID 232
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -463,7 +463,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {F0BD4835-EAEA-48E5-E504-9F4DEC4ED5FD}
       IID 234
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -486,7 +486,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {EE9CB2F1-8CDB-FE91-B9A7-78F9642CF46D}
       IID 236
       NAME 333202__neohylanmay__footsteps-sneakers-tile-slow.wav
@@ -498,6 +498,35 @@
       <SOURCE WAVE
         FILE "Samples/333202__neohylanmay__footsteps-sneakers-tile-slow.wav"
       >
+    >
+  >
+  <TRACK {7347C652-C1FE-4ED0-8F84-F4612AE0A087}
+    NAME "grupo cemento"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7347C652-C1FE-4ED0-8F84-F4612AE0A087}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
     >
   >
   <TRACK {2F2FAD7F-BC8C-4079-4D3A-0604EBF95339}
@@ -512,7 +541,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -533,8 +562,9 @@
         cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
         IQAAAAQAAAAEAAAAAQAAANMpuTSeM11AAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAGy0MIkgyH1Alw+S6R/j7D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
         8D8AAAAAAAAAQAEDAAAAAQAAAPt7ZVpmzZdAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
+      PRESETNAME "Program 1"
       FLOATPOS 812 500 644 435
       FXID {664A2CD0-2E0C-B9E6-45D7-E1E8335CA6DF}
       WAK 0 0
@@ -549,7 +579,7 @@
       FADEOUT 1 0.197467 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {FDA488E3-0EC3-C38B-DE58-5A72E055A225}
       IID 537
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -569,10 +599,10 @@
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0.329903 0 1 0 0 0
+      FADEOUT 1 0.243915 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {1FF35EFE-B752-429C-496C-890E3A6DC381}
       IID 539
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -595,7 +625,7 @@
       FADEOUT 1 0.255836 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {E18B5567-F629-D512-641E-BCBC35FC50F4}
       IID 541
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -618,7 +648,7 @@
       FADEOUT 1 0.192626 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {3834061B-09D7-59AD-185A-779592F3AC41}
       IID 543
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -641,7 +671,7 @@
       FADEOUT 1 0.221806 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {89874653-A8C6-C5A9-1E8A-01696C4C2CDA}
       IID 545
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -664,7 +694,7 @@
       FADEOUT 1 0.243356 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {294F1178-5702-D33C-582E-DAF044C979B7}
       IID 547
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -687,7 +717,7 @@
       FADEOUT 1 0.249456 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {EFF62E1E-5AB1-405C-F245-E4455368745D}
       IID 549
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -710,7 +740,7 @@
       FADEOUT 1 0.260952 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {1B2E7A97-1639-2FEE-EAA9-CC3D1F18AF57}
       IID 551
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -733,7 +763,7 @@
       FADEOUT 1.1 0.19322 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {206F2317-A2F5-1372-9836-4D08FAAA84F2}
       IID 561
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -756,7 +786,7 @@
       FADEOUT 1 0.207438 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {0958B58E-9389-D09B-E024-2E1D33D05435}
       IID 555
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -779,7 +809,7 @@
       FADEOUT 1 0.253787 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {7990EE25-D0B7-77B6-1132-98A9DB461C1A}
       IID 563
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -799,10 +829,10 @@
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0.317256 0 1 0 0 0
+      FADEOUT 1 0.222104 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {200FD5D4-C21B-D424-3298-A66901DAAF90}
       IID 559
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -825,7 +855,7 @@
       FADEOUT 1 0.255646 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {0AD06B25-A3E9-1519-5D25-66DDD692D687}
       IID 565
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -845,10 +875,10 @@
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0.34068 0 1 0 0 0
+      FADEOUT 1 0.201771 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {F041A27A-9142-141B-D9C6-FB2138DCD4CD}
       IID 569
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -868,10 +898,10 @@
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0.253583 0 1 0 0 0
+      FADEOUT 1 0.185896 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {AA5C3873-2C96-C22A-E6E6-4581E0883993}
       IID 571
       NAME 328459__alexmurphy53__walking-on-a-concrete-floor.wav
@@ -917,10 +947,10 @@
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
-    ISBUS 0 0
+    ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -941,8 +971,9 @@
         cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
         IQAAAAQAAAAEAAAAAQAAABvcchRu3oBAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
         8D8AAAAAAAAAQAEDAAAAAQAAAMpldYKY0sRAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
+      PRESETNAME "Program 1"
       FLOATPOS 0 0 0 0
       FXID {D086CF11-7307-ED63-F284-F4F6DC1CD00B}
       WAK 0 0
@@ -957,7 +988,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {AE9A3AC3-A7B4-2F5F-E5B1-EA72164EEA9F}
       IID 591
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -980,7 +1011,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {03285BA1-BDE8-A85F-C369-58A36C2BF984}
       IID 593
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1003,7 +1034,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {5A001342-7F88-C261-88B2-70A80A9AB104}
       IID 595
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1026,7 +1057,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {DCAA0D3F-3A72-FA75-6E83-18D94BB3B576}
       IID 597
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1049,7 +1080,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {85241BEF-D011-4DAC-FA7D-8E1F9AFE1803}
       IID 599
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1072,7 +1103,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {54E3ACCC-B3AB-227B-390A-EBCC409D8CAA}
       IID 601
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1095,7 +1126,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {59534B31-F20F-6BD0-204F-F581F14D5D9B}
       IID 603
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1118,7 +1149,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {47D44E9F-DE46-935E-E879-1C994876D528}
       IID 605
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1141,7 +1172,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {B4C925CE-F48C-1B90-327C-5100B99FE36A}
       IID 607
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1164,7 +1195,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {2AB2C197-181F-4AAC-1EF0-1F8A01F43BC6}
       IID 609
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1187,7 +1218,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {4B6FD881-D40D-DCF2-AEDC-641090B1A7AA}
       IID 611
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1210,7 +1241,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {E288BFEC-ADE1-3215-D4DC-24A5DC1475B0}
       IID 613
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1233,7 +1264,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {1D9AC120-EC70-7DB0-0F09-CF36BA32517E}
       IID 615
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1256,7 +1287,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {FF8C6B72-82CD-EA35-D5AB-B23372458392}
       IID 617
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1279,7 +1310,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {2DA441E0-BAB9-526A-2402-1E91AEFCE78B}
       IID 619
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1302,7 +1333,7 @@
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
       MIXFLAG 1
-      SEL 1
+      SEL 0
       IGUID {A34E413A-D45C-158B-9763-2D998E55FE87}
       IID 621
       NAME 637548__kyles__footsteps-sandals-dirt-walk.flac
@@ -1313,6 +1344,604 @@
       GUID {6DD37EC2-229B-1A00-90D3-5FAC5386343A}
       <SOURCE FLAC
         FILE "Samples/637548__kyles__footsteps-sandals-dirt-walk.flac"
+      >
+    >
+  >
+  <TRACK {AE7745CA-EDFF-B601-B2F9-08094CDFF771}
+    NAME "grupo metal"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {AE7745CA-EDFF-B601-B2F9-08094CDFF771}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {AD3D895A-73AF-A27D-1799-D5216E54E76A}
+    NAME metal
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {AD3D895A-73AF-A27D-1799-D5216E54E76A}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 337 463 912 484
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
+        IQAAAAQAAAAEAAAAAQAAAC3HD8OGDlRAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+        8D8AAAAAAAAAQAEDAAAAAQAAADvQ9ZVgNKRAGEth/Aha7z8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {10A11A5D-4C11-608E-8459-02E661B508D4}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.26495614353099
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {1EC44F47-D946-11B3-9F73-C2A52FE39E46}
+      IID 622
+      NAME 696374__sanderboah__walking-on-metal.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {82B2A7BD-3A82-5219-6C43-2F97C7A89F6A}
+      <SOURCE WAVE
+        FILE "Samples/696374__sanderboah__walking-on-metal.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.5
+      SNAPOFFS 0
+      LENGTH 0.36766666666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {8C521E4E-6BCA-CFC8-6D68-E0EC4381C145}
+      IID 625
+      NAME 696374__sanderboah__walking-on-metal.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 1.17713541666667
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DB7564CA-BB94-0523-FF42-F348EBF219A5}
+      <SOURCE WAVE
+        FILE "Samples/696374__sanderboah__walking-on-metal.wav"
+      >
+    >
+    <ITEM
+      POSITION 1
+      SNAPOFFS 0
+      LENGTH 0.37828147740639
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {2108A897-0FB0-6CBC-AEB0-E1201453889A}
+      IID 627
+      NAME 696374__sanderboah__walking-on-metal.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 2.22013541666667
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4B40B62D-50C4-7ADC-6D67-CB1B397AC418}
+      <SOURCE WAVE
+        FILE "Samples/696374__sanderboah__walking-on-metal.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.5
+      SNAPOFFS 0
+      LENGTH 0.31598181563067
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {CB1C227B-5D11-2AA4-0E0C-5B1A157B5CF6}
+      IID 631
+      NAME 696374__sanderboah__walking-on-metal.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 4.53961193436933
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {78A61E0C-9B5B-F8D9-C741-EB1859A2D3EF}
+      <SOURCE WAVE
+        FILE "Samples/696374__sanderboah__walking-on-metal.wav"
+      >
+    >
+    <ITEM
+      POSITION 2
+      SNAPOFFS 0
+      LENGTH 0.24692850165461
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {2B275CCC-163F-D006-18AC-25243831CC73}
+      IID 633
+      NAME 696374__sanderboah__walking-on-metal.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 5.75327556418431
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EEFBF2DF-46B7-D286-0148-F827809498D6}
+      <SOURCE WAVE
+        FILE "Samples/696374__sanderboah__walking-on-metal.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.5
+      SNAPOFFS 0
+      LENGTH 0.38885933666776
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {0CF64E3F-E346-FEA7-4A65-645F550A90CF}
+      IID 635
+      NAME 696374__sanderboah__walking-on-metal.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 6.84190625
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4E6FF942-0117-E09F-46D6-86F84C289666}
+      <SOURCE WAVE
+        FILE "Samples/696374__sanderboah__walking-on-metal.wav"
+      >
+    >
+    <ITEM
+      POSITION 3
+      SNAPOFFS 0
+      LENGTH 0.2993772198853
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {B39EFE5D-FD76-68AB-9F15-01417E6493B5}
+      IID 637
+      NAME 696374__sanderboah__walking-on-metal.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.21936041983642
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {02EED37F-92DC-70CD-60C3-C9BFE3F9A04E}
+      <SOURCE WAVE
+        FILE "Samples/696374__sanderboah__walking-on-metal.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.5
+      SNAPOFFS 0
+      LENGTH 0.34895170863697
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {16E946EB-C450-D9B0-EF07-7AD3606530B6}
+      IID 639
+      NAME 696374__sanderboah__walking-on-metal.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 9.49688541666667
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8CE48415-9FAA-4813-194D-CB0B55649E56}
+      <SOURCE WAVE
+        FILE "Samples/696374__sanderboah__walking-on-metal.wav"
+      >
+    >
+    <ITEM
+      POSITION 4
+      SNAPOFFS 0
+      LENGTH 0.43
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {C9F6E300-314E-3813-227A-D51556331943}
+      IID 641
+      NAME 696374__sanderboah__walking-on-metal.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 10.58160416666667
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5D087DC5-F483-F3C7-4EE8-483F19C47720}
+      <SOURCE WAVE
+        FILE "Samples/696374__sanderboah__walking-on-metal.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.5
+      SNAPOFFS 0
+      LENGTH 0.42094591046338
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {663ECC1D-9B98-672D-6907-52F3B569C8D8}
+      IID 643
+      NAME 696374__sanderboah__walking-on-metal.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 11.73335617286995
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BAA79253-2A9C-03A9-1A22-0240E06F3886}
+      <SOURCE WAVE
+        FILE "Samples/696374__sanderboah__walking-on-metal.wav"
+      >
+    >
+  >
+  <TRACK {FF144F2D-364A-AFA9-ED91-4DD058710ACA}
+    NAME "textura metal"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {FF144F2D-364A-AFA9-ED91-4DD058710ACA}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 32 112 912 484
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
+        IQAAAAQAAAAEAAAAAQAAAIquMoiWTaJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+        8D8AAAAAAAAAQAEDAAAAAQAAAN56ZFJr1bpAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {F491F48D-F2A6-3920-7ECE-F954CD86FA28}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.25701836864089
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {43A0806A-DBE9-5EF5-9734-B3FD59C16BB0}
+      IID 645
+      NAME 398937__softdistortionfx__metal-footsteps.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 7.23366666666667
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BF63A3D2-3378-90A8-8B27-44E2775C1C16}
+      <SOURCE FLAC
+        FILE "Samples/398937__softdistortionfx__metal-footsteps.flac"
+      >
+    >
+    <ITEM
+      POSITION 0.5
+      SNAPOFFS 0
+      LENGTH 0.4057089093262
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {96B4E9F4-C850-286B-648B-A8E64152277E}
+      IID 645
+      NAME 398937__softdistortionfx__metal-footsteps.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 19.09429109067384
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5281BE1C-05CB-C2E2-0EBC-7287B124D37E}
+      <SOURCE FLAC
+        FILE "Samples/398937__softdistortionfx__metal-footsteps.flac"
+      >
+    >
+    <ITEM
+      POSITION 1
+      SNAPOFFS 0
+      LENGTH 0.39045374500945
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.002106 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1CE12671-BAD1-B2DD-AB33-118DF0C60157}
+      IID 645
+      NAME 398937__softdistortionfx__metal-footsteps.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 22.60954625499055
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B6ED291F-6071-1386-B5EB-C56C8AF351DA}
+      <SOURCE FLAC
+        FILE "Samples/398937__softdistortionfx__metal-footsteps.flac"
+      >
+    >
+    <ITEM
+      POSITION 1.5
+      SNAPOFFS 0
+      LENGTH 0.49617028748398
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.002106 0 1 0 0 0
+      FADEOUT 1 0.156573 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {9C4B3E57-CD60-A6DF-F574-4FAFF5A40833}
+      IID 645
+      NAME 398937__softdistortionfx__metal-footsteps.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 34.45632176891151
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9762ECF6-41A5-09B9-EAC3-CEE2D2F5BDB6}
+      <SOURCE FLAC
+        FILE "Samples/398937__softdistortionfx__metal-footsteps.flac"
+      >
+    >
+    <ITEM
+      POSITION 2
+      SNAPOFFS 0
+      LENGTH 0.37256486800726
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5EE3918A-DDBC-27D0-5747-C39F08C7964A}
+      IID 645
+      NAME 398937__softdistortionfx__metal-footsteps.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 36.9652432665882
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2D9797D1-5939-A3FC-CA77-6FFAD42F77B6}
+      <SOURCE FLAC
+        FILE "Samples/398937__softdistortionfx__metal-footsteps.flac"
+      >
+    >
+    <ITEM
+      POSITION 2.5
+      SNAPOFFS 0
+      LENGTH 0.31016924681953
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.002106 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {927A2D2E-438F-59B7-DA19-B4301BD2B865}
+      IID 645
+      NAME 398937__softdistortionfx__metal-footsteps.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 9.57136017587187
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2B8D3440-C734-A5BB-0981-214C09937C85}
+      <SOURCE FLAC
+        FILE "Samples/398937__softdistortionfx__metal-footsteps.flac"
+      >
+    >
+    <ITEM
+      POSITION 2.5
+      SNAPOFFS 0
+      LENGTH 0.31016924681953
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.002106 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D6B76270-0473-1558-AAEF-B4A44C8B12CE}
+      IID 645
+      NAME 398937__softdistortionfx__metal-footsteps.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 39.43136017587148
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {73380FF5-B997-EC2C-1582-58EF23114951}
+      <SOURCE FLAC
+        FILE "Samples/398937__softdistortionfx__metal-footsteps.flac"
+      >
+    >
+    <ITEM
+      POSITION 3
+      SNAPOFFS 0
+      LENGTH 0.46205785081672
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.002965 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9748460A-BFAE-C5CB-55F4-AEF856DECE64}
+      IID 645
+      NAME 398937__softdistortionfx__metal-footsteps.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 41.66495013034208
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {144EE01B-B9A8-6F7C-AED3-FBAEDE640D4B}
+      <SOURCE FLAC
+        FILE "Samples/398937__softdistortionfx__metal-footsteps.flac"
+      >
+    >
+    <ITEM
+      POSITION 3.5
+      SNAPOFFS 0
+      LENGTH 0.33716878842413
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.000755 0 1 0 0 0
+      FADEOUT 1 0.000537 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E2AEA3DE-BB41-FF4A-0B0B-EC9932E39996}
+      IID 645
+      NAME 398937__softdistortionfx__metal-footsteps.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 45.38879696076473
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EC64D12C-272D-CBE4-CFC6-D19B449D97AE}
+      <SOURCE FLAC
+        FILE "Samples/398937__softdistortionfx__metal-footsteps.flac"
+      >
+    >
+    <ITEM
+      POSITION 4
+      SNAPOFFS 0
+      LENGTH 0.25217281904487
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.000537 0 1 0 0 0
+      FADEOUT 1 0.004173 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7AAF0292-203C-96A0-CBF7-EF644508148F}
+      IID 645
+      NAME 398937__softdistortionfx__metal-footsteps.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 46.67298002267876
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DAE67278-1B82-E917-C8FB-0C3B0C48A93C}
+      <SOURCE FLAC
+        FILE "Samples/398937__softdistortionfx__metal-footsteps.flac"
+      >
+    >
+    <ITEM
+      POSITION 4.5
+      SNAPOFFS 0
+      LENGTH 0.24718618689041
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.004173 0 1 0 0 0
+      FADEOUT 1 0.002106 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2DEEA43E-640D-7F50-5BA1-51247D32E705}
+      IID 645
+      NAME 398937__softdistortionfx__metal-footsteps.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 68.06800117985406
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {462D1820-D3BF-D586-5819-19C1910B8F5A}
+      <SOURCE FLAC
+        FILE "Samples/398937__softdistortionfx__metal-footsteps.flac"
+      >
+    >
+    <ITEM
+      POSITION 5
+      SNAPOFFS 0
+      LENGTH 0.18698328366114
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5989CA4A-94D0-A861-A26D-5DE48E93278F}
+      IID 645
+      NAME 398937__softdistortionfx__metal-footsteps.flac
+      VOLPAN 1 0 1 -1
+      SOFFS 77.69049723380708
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ABA029C2-0165-B1C0-CBEB-2E312A8396E2}
+      <SOURCE FLAC
+        FILE "Samples/398937__softdistortionfx__metal-footsteps.flac"
       >
     >
   >
