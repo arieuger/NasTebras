@@ -1,7 +1,7 @@
-<REAPER_PROJECT 0.1 "6.65/linux-x86_64" 1741884162
+<REAPER_PROJECT 0.1 "6.65/linux-x86_64" 1741946864
   <NOTES 0 2
   >
-  RIPPLE 0
+  RIPPLE 1
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 129
   ENVATTACH 3
@@ -12,17 +12,17 @@
   PANLAW 1
   PROJOFFS 0 0 0
   MAXPROJLEN 0 600
-  GRID 3199 8 1 8 1 0 0 0
+  GRID 3455 8 1 8 1 0 0 0
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 1.5
-  ZOOM 50.47430263272207 0 0
-  VZOOMEX 4 128
+  CURSOR 5.98324264522307
+  ZOOM 50.47430263272242 0 0
+  VZOOMEX 2 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 0
+  LOOP 1
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 1.99617028748398 2.07291093011494
-  SELECTION2 1.99617028748398 2.07291093011494
+  SELECTION 5.96343058348392 0
+  SELECTION2 5.96343058348392 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -89,7 +89,13 @@
     ARM 0
     DEFSHAPE 1 -1 -1
   >
-  MARKER 1 0 "" 0 0 1 B {79BF1F69-62A8-5FD2-1F34-B620458DD81A}
+  MARKER 1 0 Pegadas 0 0 1 B {79BF1F69-62A8-5FD2-1F34-B620458DD81A}
+  MARKER 3 8 "Cambio de direccion" 0 0 1 B {BB319B30-F1EB-D01E-14AF-68E701734750}
+  MARKER 2 10 Dash 0 0 1 B {EB555BA8-1D85-0F37-9036-F637D55C5939}
+  MARKER 1 10 dash-001 13 0 1 B {FC61CB59-3FA0-95A0-8674-0756DA288B83}
+  MARKER 1 11.5 "" 13 0 1 B
+  MARKER 2 12 dash-002 13 0 1 B {AE19B451-3F9E-BA02-B8C3-39B0B4844DED}
+  MARKER 2 13.5 "" 13 0 1 B
   <PROJBAY
   >
   <TRACK {70A14942-6B22-518D-B359-D2983EF29B6F}
@@ -125,8 +131,9 @@
         cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
         IQAAAAQAAAAEAAAAAQAAAAjRwoukjoFAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAAAAAJQp2r+XEZFA+mMiuWID8T8AAAAAAAAAQAEIAAAAAQAAAHp52GmXIZpAj+21oPfG
         sD5/arx0kxgBQAEDAAAAAQAAADzcPdRgo7FAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
+      PRESETNAME "Program 1"
       FLOATPOS 169 472 644 435
       FXID {9DB40C90-8155-0A76-B08C-D45C4E103C92}
       WAK 0 0
@@ -534,7 +541,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 0.16829929582119 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -915,7 +922,7 @@
       >
     >
     <ITEM
-      POSITION 8.5
+      POSITION 8
       SNAPOFFS 0
       LENGTH 0.39371882086168
       LOOP 1
@@ -943,7 +950,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 0.18947831560292 0 -1 -1 1
+    VOLPAN 0.05186930979198 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -1376,14 +1383,14 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 0.07837132332818 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -1404,8 +1411,9 @@
         cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
         IQAAAAQAAAAEAAAAAQAAAC3HD8OGDlRAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
         8D8AAAAAAAAAQAEDAAAAAQAAADvQ9ZVgNKRAGEth/Aha7z8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
+      PRESETNAME "Program 1"
       FLOATPOS 0 0 0 0
       FXID {10A11A5D-4C11-608E-8459-02E661B508D4}
       WAK 0 0
@@ -1646,14 +1654,14 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 0.02171747953734 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 2 -1
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -1674,8 +1682,9 @@
         cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
         IQAAAAQAAAAEAAAAAQAAAIquMoiWTaJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
         8D8AAAAAAAAAQAEDAAAAAQAAAN56ZFJr1bpAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
+      PRESETNAME "Program 1"
       FLOATPOS 0 0 0 0
       FXID {F491F48D-F2A6-3920-7ECE-F954CD86FA28}
       WAK 0 0
@@ -1755,7 +1764,7 @@
       FADEIN 1 0.002106 0 1 0 0 0
       FADEOUT 1 0.156573 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {9C4B3E57-CD60-A6DF-F574-4FAFF5A40833}
       IID 645
       NAME 398937__softdistortionfx__metal-footsteps.flac
@@ -1942,6 +1951,661 @@
       GUID {ABA029C2-0165-B1C0-CBEB-2E312A8396E2}
       <SOURCE FLAC
         FILE "Samples/398937__softdistortionfx__metal-footsteps.flac"
+      >
+    >
+  >
+  <TRACK {BBAD80C3-29AB-6E0D-9F23-63903C8A763D}
+    NAME dash
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {BBAD80C3-29AB-6E0D-9F23-63903C8A763D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 464 278 887 232
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS delay/delay ""
+        80 -7 0 -17 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 180 356 619 183
+      FXID {9A329B22-EB68-AA0E-4547-43664CAAC333}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS delay/delay ""
+        240 -9 0 -28 0 0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 32 95 619 183
+      FXID {6EB8E040-C88E-8F11-3175-5ABF6FF13345}
+      WAK 0 0
+    >
+  >
+  <TRACK {8787770E-F7B0-600C-F099-E3399BE8957E}
+    NAME "dash woosh"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {8787770E-F7B0-600C-F099-E3399BE8957E}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 560 365 912 484
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
+        IQAAAAQAAAAEAAAAAQAAAOjn1EKVbnNAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+        8D8AAAAAAAAAQAEDAAAAAQAAAA7l8Sjx4dFAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {DD2697F7-C98B-D21D-F92C-58364754D880}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 10
+      SNAPOFFS 0
+      LENGTH 0.12533333333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {8811A0D1-27D2-F061-2749-359C62E6F385}
+      IID 678
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 3.8043125
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6E1AD64C-61AE-2C93-F645-4326AC660F7B}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 12
+      SNAPOFFS 0
+      LENGTH 0.12725
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {67597D03-50BB-D2FE-4D69-D908E7116A8B}
+      IID 674
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.86741666666667
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C8A231BC-E846-43F4-F7B2-B9634D3C41B1}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 14
+      SNAPOFFS 0
+      LENGTH 0.40295833333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {32FD3741-31EC-D0B2-3C52-524F3F94F119}
+      IID 676
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 2.79652083333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C94126E8-C1B4-FEFC-9326-D661A97E1F6E}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 16
+      SNAPOFFS 0
+      LENGTH 0.1259375
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {58D9A4D1-ABA9-3D03-57F6-36E8CC87CF4D}
+      IID 672
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.229375
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {294FE429-2751-79CF-9E7F-0F553B1BBD95}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 18
+      SNAPOFFS 0
+      LENGTH 0.14095833333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {3A82CC7F-29B3-14C7-5F5C-43FEB20E3CE6}
+      IID 680
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 5.83675
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6431A42B-9AAF-608A-B8CD-209764276DEF}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 20
+      SNAPOFFS 0
+      LENGTH 0.2398125
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {38879EDF-B7FD-4BA7-0546-ACFC5BE3EC53}
+      IID 682
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.43472916666667
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {80FA49D6-4D36-ECDF-063E-0C67B8F7F3FF}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 22
+      SNAPOFFS 0
+      LENGTH 0.08939583333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {72E3F3A7-963D-98E9-327D-B395ED1ED6AE}
+      IID 686
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 13.11320833333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {13376ABE-51AB-6DF4-6193-FEDC5DB7C554}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 24
+      SNAPOFFS 0
+      LENGTH 0.09833333333334
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {CE314152-51D2-7CD6-E1A4-F0D1694974C7}
+      IID 688
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 13.95285416666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9C801119-20BE-DA8C-4866-6EA4B75A0369}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 26
+      SNAPOFFS 0
+      LENGTH 0.09164583333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {F37E121C-20D3-BA25-189B-4F64C8EC99A0}
+      IID 690
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 14.5138125
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D1389AB2-7C3F-0932-434F-CD0E86530F33}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 28
+      SNAPOFFS 0
+      LENGTH 0.1764375
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {1FB443AC-D91A-2A49-CDEA-C546504A6A45}
+      IID 692
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 16.3481875
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {61B4B73C-B7B3-E387-89CB-254748913717}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 30
+      SNAPOFFS 0
+      LENGTH 0.1238125
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {FC559600-99EF-E413-4B67-3237293BD999}
+      IID 694
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 17.4058125
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0E20C9CB-AB41-E18F-C5E9-E4060C5647A3}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 32
+      SNAPOFFS 0
+      LENGTH 0.16177083333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {41A46509-743E-70FB-5FEF-85F9BF9A0686}
+      IID 696
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 18.8529375
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DAE524A5-3EE1-40F6-9211-EF951D072256}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 34
+      SNAPOFFS 0
+      LENGTH 0.14329166666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {BACD81E3-E35A-CD27-4916-41B6185844F9}
+      IID 698
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 19.62485416666667
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {805E8174-5FC5-C55A-5723-1CE3561B4CF4}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 36
+      SNAPOFFS 0
+      LENGTH 0.22566666666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {5021464D-B323-5330-04DA-CF7D31AC123C}
+      IID 700
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 20.49002083333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {19A31476-D52D-94A6-5122-5EF8A5F0EB7D}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 38
+      SNAPOFFS 0
+      LENGTH 0.1434375
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {C70A5680-36C9-8D70-97FC-31EB0CD6C00F}
+      IID 702
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 21.92995833333334
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A07E9844-7543-48C1-5ED2-0E6BB4DCD816}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 38.770625
+      SNAPOFFS 0
+      LENGTH 9
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {44913BD0-8B7B-4236-C633-420065FC1D32}
+      IID 661
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 31
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4766B118-B3C2-F65C-D7D3-E2115F34C6D6}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 40
+      SNAPOFFS 0
+      LENGTH 0.1985
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {D7222F68-CC4C-FE38-0FCF-7A8C9E54DFEF}
+      IID 704
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 22.74777083333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AACC5900-5BD5-7F36-3E34-C955A9964754}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 42
+      SNAPOFFS 0
+      LENGTH 0.14575
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {251BDBCB-FC5B-5815-CC19-A5D8A07696E7}
+      IID 706
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 24.41572916666667
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FB2A9974-7C39-A9E6-EFD7-3D5AE8F8398D}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 44
+      SNAPOFFS 0
+      LENGTH 0.16735416666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {25EAF655-015C-801F-0D06-4DA43C84A56B}
+      IID 708
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 26.160875
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E2C32C74-66D7-2374-44B5-166B05C51319}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 46
+      SNAPOFFS 0
+      LENGTH 0.11385416666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {24B5DD0F-4920-46B7-5B0D-C2713F19F759}
+      IID 710
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 26.97414583333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {70C157B3-62DE-D70B-CCD1-142DB2500D57}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 48
+      SNAPOFFS 0
+      LENGTH 0.130125
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {F52A9772-AC01-4FF3-F7D0-14A8C061DF2B}
+      IID 712
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 27.95
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2BC70878-6670-AA36-F5F2-4C103BE3CDB4}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 50
+      SNAPOFFS 0
+      LENGTH 0.14397916666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {114FA223-5C6B-FF58-89E5-AF49993A01D7}
+      IID 714
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 28.60583333333334
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7BFB20BC-5FC0-D315-F2D2-DCF707CECB49}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 51.770625
+      SNAPOFFS 0
+      LENGTH 14
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D9E45843-4C45-1EF1-43CF-0AFDDCEFC3C7}
+      IID 661
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 44
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0301FB99-1802-7EB2-AF84-B38F29B6D660}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 75.770625
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0B0598CD-172F-5EBD-A4EF-A4667F40FC9D}
+      IID 661
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 68
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E4D71ED3-4F5C-2075-8E79-F3E31FE790C0}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
+      >
+    >
+    <ITEM
+      POSITION 101.770625
+      SNAPOFFS 0
+      LENGTH 7
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6C1E9024-15AB-9D2A-CEA6-7C73402F9CA8}
+      IID 661
+      NAME 533517__toyoto__woosh-fleuret-escrime-a.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 94
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {92C0BC20-B1B0-3E1B-7098-30336BD08440}
+      <SOURCE WAVE
+        FILE "Samples/533517__toyoto__woosh-fleuret-escrime-a.wav"
       >
     >
   >

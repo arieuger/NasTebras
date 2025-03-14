@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using FMODUnity;
 
 namespace Player.StateMachine
 {
@@ -8,13 +9,21 @@ namespace Player.StateMachine
 
         [SerializeField] private SpriteRenderer playerSprite;
         private bool _shouldGhostTrail;
-        
+
+        private StudioEventEmitter _dashSoundEmitter;
+
+        private void Awake()
+        {
+            _dashSoundEmitter = GetComponent<StudioEventEmitter>();
+        }
+
         public override void Enter()
         {
             StateAnimator.Play("DashStart");
             DoSmearEffect();
             _shouldGhostTrail = true;
             StartCoroutine(GhostTrail());
+            _dashSoundEmitter.Play();
         }
 
         public override void Do()
@@ -28,17 +37,21 @@ namespace Player.StateMachine
             StopCoroutine(GhostTrail());
         }
 
-        void DoSmearEffect() {
+        void DoSmearEffect()
+        {
             playerSprite.transform.localScale = new Vector2(1.5f, 0.8f); // Estiramiento
             Invoke(nameof(ResetScale), 0.075f); // Vuelve a la escala normal tras 0.05 segundos
         }
 
-        void ResetScale() {
+        void ResetScale()
+        {
             playerSprite.transform.localScale = Vector2.one;
         }
-        
-        IEnumerator GhostTrail() {
-            while (_shouldGhostTrail) {
+
+        IEnumerator GhostTrail()
+        {
+            while (_shouldGhostTrail)
+            {
                 GameObject smear = new GameObject("Smear");
                 SpriteRenderer sr = smear.AddComponent<SpriteRenderer>();
                 sr.sprite = playerSprite.sprite;

@@ -1,6 +1,106 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7018293981375181681
+--- !u!114 &-2335854972947796259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/personaxes/lois/Dash
+  m_EditorClassIdentifier: 
+  Path: event:/personaxes/lois/Dash
+  Guid:
+    Data1: 747191393
+    Data2: 1232053517
+    Data3: 505751441
+    Data4: -1875944345
+  Banks:
+  - {fileID: -506852317344399556}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-506852317344399556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sounds/FMOD/Sounds/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638775474830255231
+  FileSizes:
+  - Name: Desktop
+    Value: 214208
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 3204624825562824628}
+  - {fileID: -506852317344399556}
+  EditorEvents:
+  - {fileID: -2335854972947796259}
+  - {fileID: 1313421963605859092}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -506852317344399556}
+  StringsBanks:
+  - {fileID: 3204624825562824628}
+  cacheTime: 638775474830265231
+  cacheVersion: 131846
+--- !u!114 &1313421963605859092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/personaxes/lois/Pegadas
+  m_EditorClassIdentifier: 
+  Path: event:/personaxes/lois/Pegadas
+  Guid:
+    Data1: -1455112849
+    Data2: 1309363309
+    Data3: 1857426101
+    Data4: 555935362
+  Banks:
+  - {fileID: -506852317344399556}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1914715882146209993}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1914715882146209993
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21,112 +121,12 @@ MonoBehaviour:
     data1: 1892642654
     data2: 887442826
   Type: 2
-  IsGlobal: 1
+  IsGlobal: 0
   Labels:
   - Cemento
   - Madeira
   - Metal
   Exists: 1
---- !u!114 &-6758605958385513826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/TipoChan
-  m_EditorClassIdentifier: 
-  Name: TipoChan
-  StudioPath: parameter:/TipoChan
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 1892642654
-    data2: 887442826
-  Type: 2
-  IsGlobal: 1
-  Labels:
-  - Cemento
-  - Madeira
-  - Metal
-  Exists: 1
---- !u!114 &-2759745862705165058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Pegadas
-  m_EditorClassIdentifier: 
-  Path: event:/Pegadas
-  Guid:
-    Data1: -1455112849
-    Data2: 1309363309
-    Data3: 1857426101
-    Data4: 555935362
-  Banks:
-  - {fileID: -506852317344399556}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -7018293981375181681}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-506852317344399556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Sounds/FMOD/Sounds/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638774850223919537
-  FileSizes:
-  - Name: Desktop
-    Value: 216928
-  Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 3204624825562824628}
-  - {fileID: -506852317344399556}
-  EditorEvents:
-  - {fileID: -2759745862705165058}
-  EditorParameters:
-  - {fileID: -6758605958385513826}
-  MasterBanks:
-  - {fileID: -506852317344399556}
-  StringsBanks:
-  - {fileID: 3204624825562824628}
-  cacheTime: 638774850223939538
-  cacheVersion: 131846
 --- !u!114 &3204624825562824628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,8 +142,8 @@ MonoBehaviour:
   Path: Assets/Sounds/FMOD/Sounds/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638774850223939538
+  lastModified: 638775474830265231
   FileSizes:
   - Name: Desktop
-    Value: 818
+    Value: 882
   Exists: 1
