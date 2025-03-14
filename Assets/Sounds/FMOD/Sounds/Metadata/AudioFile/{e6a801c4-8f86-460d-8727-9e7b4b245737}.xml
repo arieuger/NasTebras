@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{e6a801c4-8f86-460d-8727-9e7b4b245737}">
+		<property name="assetPath">
+			<value>madeira-011.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.1248072562358276</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{419386e7-fc7c-4ffc-a159-8ab85d73da18}</destination>
+		</relationship>
+	</object>
+</objects>

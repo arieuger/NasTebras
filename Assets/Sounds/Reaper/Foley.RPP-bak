@@ -1,7 +1,7 @@
-<REAPER_PROJECT 0.1 "6.65/linux-x86_64" 1741946864
+<REAPER_PROJECT 0.1 "6.65/linux-x86_64" 1741970871
   <NOTES 0 2
   >
-  RIPPLE 1
+  RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 129
   ENVATTACH 3
@@ -12,13 +12,13 @@
   PANLAW 1
   PROJOFFS 0 0 0
   MAXPROJLEN 0 600
-  GRID 3455 8 1 8 1 0 0 0
+  GRID 3199 8 1 8 1 0 0 0
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 5.98324264522307
-  ZOOM 50.47430263272242 0 0
-  VZOOMEX 2 0
+  CURSOR 5
+  ZOOM 100.00000000000337 0 0
+  VZOOMEX 3 279
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 5.96343058348392 0
-  SELECTION2 5.96343058348392 0
+  SELECTION 8 0
+  SELECTION2 8 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -1390,7 +1390,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -1954,6 +1954,654 @@
       >
     >
   >
+  <TRACK {8E41AC79-ECE4-1D74-0CE8-18366736574D}
+    NAME "grupo madeira"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {8E41AC79-ECE4-1D74-0CE8-18366736574D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {2B0F538B-17AE-2693-92FD-A1A28E23BCE8}
+    NAME madeira
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.23293747634546 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {2B0F538B-17AE-2693-92FD-A1A28E23BCE8}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 535 296 912 484
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
+        IQAAAAQAAAAEAAAAAQAAAKKif/8hhlhAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+        8D8AAAAAAAAAQAEDAAAAAQAAAKkNJ8OmRLFAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {5FC14437-9F86-F64C-E056-5A7356412C42}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.11925170068027
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {3692EDB4-3037-9198-A1B3-FF83635C506A}
+      IID 718
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F3BBF3C7-9E66-5403-41DF-23DF6F78DEA7}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 0.5
+      SNAPOFFS 0
+      LENGTH 0.12616780045351
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {865EE3F3-671D-18F2-7C91-8C79143EC996}
+      IID 755
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0.28551020408163
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {20FF8320-31B8-FF63-393E-4F3F326DB737}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 1
+      SNAPOFFS 0
+      LENGTH 0.14151927437642
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {18D9BC8A-1CF7-A4A0-7230-110EFB795D3D}
+      IID 757
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0.56501133786848
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0848A0C7-3F42-2A28-6675-751DB42E90C6}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 1.5
+      SNAPOFFS 0
+      LENGTH 0.1156462585034
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {72C1C039-3D1F-3BC3-4C4A-C11227047AAC}
+      IID 759
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0.83657596371882
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B02F8BE5-2C63-28B5-06C1-D044FDEB8A2E}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 2
+      SNAPOFFS 0
+      LENGTH 0.1327664399093
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {F790AF8E-41DE-0D29-4786-89C7AC026597}
+      IID 761
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 1.08043083900227
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {13E7F390-0A1F-C228-A372-CDDC42181EF5}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 2.5
+      SNAPOFFS 0
+      LENGTH 0.10521541950113
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {AF9DF474-0986-A65A-3FD5-0E79A4AB9C6E}
+      IID 763
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 1.31700680272109
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {21775D3E-9E42-692B-D0FC-81E0674222C1}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 3
+      SNAPOFFS 0
+      LENGTH 0.1259410430839
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {278D9E58-4E55-2ECA-355A-D5046B57BC22}
+      IID 765
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 1.56492063492063
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {438FD247-26A2-F1D3-5666-2036E41637E7}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 3.5
+      SNAPOFFS 0
+      LENGTH 0.10566893424036
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {BC55A0ED-4D7C-637E-7C5E-3493AB95CA90}
+      IID 767
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 1.80204081632653
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8ABBCCBF-3F93-C113-9C04-D94238D603AE}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 4
+      SNAPOFFS 0
+      LENGTH 0.11133786848073
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {DC3ED616-1B4B-C4FA-1E69-09A2F852A39F}
+      IID 769
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 2.02224489795918
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BE34DD2D-715B-DC54-D885-06087FA19197}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 4.5
+      SNAPOFFS 0
+      LENGTH 0.09548752834467
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {E09C27D9-271E-880F-CAD0-ABD963403BDA}
+      IID 771
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 2.3078231292517
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7D9C40A1-9BC0-1BC1-85C9-A0E0C30E3626}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 5
+      SNAPOFFS 0
+      LENGTH 0.12480725623583
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {59C4E66D-8852-761A-67DD-A014597EA9C8}
+      IID 773
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 2.5428798185941
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {43DDFEC1-44FC-2B30-A0BA-86E99F3FF452}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 5.5
+      SNAPOFFS 0
+      LENGTH 0.12868480725624
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {DE40EB36-0217-CE0E-C305-E81C5969D355}
+      IID 775
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 2.80519274376417
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D274B167-F702-445A-AE8C-907812C1A082}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 6
+      SNAPOFFS 0
+      LENGTH 0.13331065759637
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {DD49CD20-23DF-2D83-EE8E-A7BBACD7E149}
+      IID 777
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 3.06775510204082
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3F3DB3E4-842A-F1A0-9AB9-A7F116FDEFA9}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 6.5
+      SNAPOFFS 0
+      LENGTH 0.1228798185941
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {11EAD7D7-C5A4-1677-951E-D38DEC36FC20}
+      IID 779
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 3.32863945578231
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AF2E324E-9F34-690C-A9D5-3657047037F3}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 7
+      SNAPOFFS 0
+      LENGTH 0.1209977324263
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {0DB4CA03-D904-6063-B709-E5C3C4921536}
+      IID 781
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 3.56587301587302
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {14F39497-9F58-7652-BE5D-4B2BB1E67D1B}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 7.5
+      SNAPOFFS 0
+      LENGTH 0.12546485260771
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      MIXFLAG 1
+      SEL 0
+      IGUID {F14970C5-266E-6D24-F606-F2BCE9024B94}
+      IID 783
+      NAME 459965__florianreichelt__footsteps-while-running-on-wood.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 3.79045351473923
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D5F08319-2436-09BE-BBB0-DD7020F14431}
+      <SOURCE MP3
+        FILE "Samples/459965__florianreichelt__footsteps-while-running-on-wood.mp3" 1
+      >
+    >
+  >
+  <TRACK {A0E18B37-3951-DBB2-97AA-2709F3434699}
+    NAME "textura madeira"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.06291008167019 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A0E18B37-3951-DBB2-97AA-2709F3434699}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 32 112 912 484
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
+        IQAAAAQAAAAEAAAAAQAAAF5rAYzdToRAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
+        8D8AAAAAAAAAQAEDAAAAAQAAAPbz8qUmlMxAfRMJ8CWr8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {077A1B2D-E9BB-AD4E-67C5-783960B44823}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.25986083307846
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {315E2FC3-564D-7E1D-D4EE-B7CD04B58F44}
+      IID 787
+      NAME 407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 2.84393746796686
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {69D2BC0B-6ECE-2233-9E78-F420A4A6D10C}
+      <SOURCE WAVE
+        FILE "Samples/407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav"
+      >
+    >
+    <ITEM
+      POSITION 0.5
+      SNAPOFFS 0
+      LENGTH 0.27926219261796
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.005874 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {32874DD9-EA6A-B0DB-A2B7-E42288354BA5}
+      IID 787
+      NAME 407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 3.54448435491454
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {07BB16D5-2A0F-D182-9206-C8E9C2EE0F5E}
+      <SOURCE WAVE
+        FILE "Samples/407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav"
+      >
+    >
+    <ITEM
+      POSITION 1
+      SNAPOFFS 0
+      LENGTH 0.3466314525973
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.126699 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6CE18E5F-2B7A-2000-8C28-895C1373ED6F}
+      IID 787
+      NAME 407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 4.2526232293409
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7398E174-FD2D-46EC-A6A4-82850C3991E2}
+      <SOURCE WAVE
+        FILE "Samples/407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.5
+      SNAPOFFS 0
+      LENGTH 0.49617028748398
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.008268 0 1 0 0 0
+      FADEOUT 1 0.222899 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {22424C42-BE87-0D45-B18C-A5CD3FB1BA2C}
+      IID 787
+      NAME 407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 5.68064802007989
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {867F2928-F316-D9D1-DBDF-6E3FB228972B}
+      <SOURCE WAVE
+        FILE "Samples/407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav"
+      >
+    >
+    <ITEM
+      POSITION 2
+      SNAPOFFS 0
+      LENGTH 0.48330423785416
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.005874 0 1 0 0 0
+      FADEOUT 1 0.132129 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1DEFCBA0-CDF9-873F-BF66-6549ACBBF0E0}
+      IID 787
+      NAME 407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 7.03047446124305
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2A0EEE79-0E49-F79A-5825-773EA7364BBF}
+      <SOURCE WAVE
+        FILE "Samples/407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.5
+      SNAPOFFS 0
+      LENGTH 0.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.008268 0 1 0 0 0
+      FADEOUT 1 0.194518 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {18CCFFF0-ED7F-0D45-48C0-1A97A8C62506}
+      IID 787
+      NAME 407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 8.45479835776944
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {26E00B44-E28C-4422-7781-271794936A5C}
+      <SOURCE WAVE
+        FILE "Samples/407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav"
+      >
+    >
+    <ITEM
+      POSITION 3
+      SNAPOFFS 0
+      LENGTH 0.46205785081672
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.002106 0 1 0 0 0
+      FADEOUT 1 0.281311 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1801CCAF-25BD-2925-C2D0-46BEC91B40E2}
+      IID 787
+      NAME 407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 24.21155050408109
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BAA7F6EB-EB06-6FED-667D-42A7B7DFDC39}
+      <SOURCE WAVE
+        FILE "Samples/407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.5
+      SNAPOFFS 0
+      LENGTH 0.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.008268 0 1 0 0 0
+      FADEOUT 1 0.256926 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {60F430E5-71AD-55E5-3763-4ED55EF81D8A}
+      IID 787
+      NAME 407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 26.93609598400201
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6C75B750-A18A-C8E3-4A3F-68AAFBEE5207}
+      <SOURCE WAVE
+        FILE "Samples/407582__felixblume__walking-over-squeaky-wood-stairs-in-a-galpon.wav"
+      >
+    >
+  >
   <TRACK {BBAD80C3-29AB-6E0D-9F23-63903C8A763D}
     NAME dash
     PEAKCOL 16576
@@ -2031,8 +2679,9 @@
         cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
         IQAAAAQAAAAEAAAAAQAAAOjn1EKVbnNAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
         8D8AAAAAAAAAQAEDAAAAAQAAAA7l8Sjx4dFAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAIQCAACWAQAAAgAAAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
+      PRESETNAME "Program 1"
       FLOATPOS 0 0 0 0
       FXID {DD2697F7-C98B-D21D-F92C-58364754D880}
       WAK 0 0

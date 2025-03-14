@@ -270,6 +270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3810449856650065911}
   - component: {fileID: 1065340898823027942}
+  - component: {fileID: 1718063597181808586}
   m_Layer: 6
   m_Name: Run
   m_TagString: Untagged
@@ -304,6 +305,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbece7b7659428565bfb49afb0738f81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1718063597181808586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2752432752117510095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1455112849
+      Data2: 1309363309
+      Data3: 1857426101
+      Data4: 555935362
+    Path: event:/personaxes/lois/Pegadas
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params:
+  - Name: TipoChan
+    Value: 0
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2968141151530395019
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,6 +706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 570277117504715168}
   - component: {fileID: 4300459252634274933}
+  - component: {fileID: 7472143113443406539}
   m_Layer: 6
   m_Name: Dash
   m_TagString: Untagged
@@ -707,3 +742,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSprite: {fileID: 7146803052946927536}
+--- !u!114 &7472143113443406539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7179160926180092023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 747191393
+      Data2: 1232053517
+      Data3: 505751441
+      Data4: -1875944345
+    Path: event:/personaxes/lois/Dash
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
