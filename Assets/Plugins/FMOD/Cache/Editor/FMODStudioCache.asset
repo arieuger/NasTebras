@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: Assets/Sounds/FMOD/Sounds/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638775712867743058
+  lastModified: 638775737446603671
   FileSizes:
   - Name: Desktop
-    Value: 288960
+    Value: 2106400
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -65,12 +65,14 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -2335854972947796259}
   - {fileID: 1492770086080783259}
-  EditorParameters: []
+  - {fileID: 8675880633856766073}
+  EditorParameters:
+  - {fileID: 8377381157500046494}
   MasterBanks:
   - {fileID: -506852317344399556}
   StringsBanks:
   - {fileID: 3204624825562824628}
-  cacheTime: 638775712867753058
+  cacheTime: 638775737446623672
   cacheVersion: 131846
 --- !u!114 &1492770086080783259
 MonoBehaviour:
@@ -115,11 +117,87 @@ MonoBehaviour:
   Path: Assets/Sounds/FMOD/Sounds/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638775712867753058
+  lastModified: 638775737446623672
   FileSizes:
   - Name: Desktop
-    Value: 882
+    Value: 996
   Exists: 1
+--- !u!114 &6853996658679807304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/porto/DistanciaASereas
+  m_EditorClassIdentifier: 
+  Name: DistanciaASereas
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 843059688
+    data2: 2163504348
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8377381157500046494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DistanciaASereas
+  m_EditorClassIdentifier: 
+  Name: DistanciaASereas
+  StudioPath: parameter:/DistanciaASereas
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 843059688
+    data2: 2163504348
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8675880633856766073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/musica/porto
+  m_EditorClassIdentifier: 
+  Path: event:/musica/porto
+  Guid:
+    Data1: -1803619061
+    Data2: 1327235550
+    Data3: 445344643
+    Data4: -815279287
+  Banks:
+  - {fileID: -506852317344399556}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6853996658679807304}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8998544663796996151
 MonoBehaviour:
   m_ObjectHideFlags: 0

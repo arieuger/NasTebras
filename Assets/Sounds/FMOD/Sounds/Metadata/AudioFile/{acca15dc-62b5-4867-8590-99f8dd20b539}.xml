@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{acca15dc-62b5-4867-8590-99f8dd20b539}">
+		<property name="assetPath">
+			<value>LoopSoSereas.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>89.407916666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{419386e7-fc7c-4ffc-a159-8ab85d73da18}</destination>
+		</relationship>
+	</object>
+</objects>
