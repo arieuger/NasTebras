@@ -149,6 +149,9 @@ public class PlayerMovement : MonoBehaviour
         _body.linearVelocity = smoothActivated ? Vector3.SmoothDamp(_body.linearVelocity, targetVelocity, ref _velocity, movementSmooth) : targetVelocity;
         if (_jumpCancelled && _jump && _body.linearVelocity.y > 0) _body.AddForce(Vector2.down * cancelRate);
 
+        // Proba para actualizar as capas da música en función da posición do player
+        float distance = 1 - (Mathf.Abs(_body.position.x) - 5) / 18;
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DistanciaASereas", distance);
     }
 
     void CheckGround()
