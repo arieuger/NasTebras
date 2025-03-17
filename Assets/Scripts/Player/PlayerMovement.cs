@@ -129,9 +129,15 @@ public class PlayerMovement : MonoBehaviour
     private IEnumerator DashCo()
     {
         _body.gravityScale = 0;
-        _body.linearVelocity = new((_lookingRight ? 1 : -1) * dashingVelocity, 0);
+        _body.linearVelocity = new Vector2((_lookingRight ? 1 : -1) * dashingVelocity * .5f, 0);
+        yield return new WaitForSeconds(dashingTime * .3f);
         
-        yield return new WaitForSeconds(dashingTime);
+        _body.linearVelocity = new((_lookingRight ? 1 : -1) * dashingVelocity * 2f, 0);
+        yield return new WaitForSeconds(dashingTime * .4f);
+        
+        
+        _body.linearVelocity = new Vector2((_lookingRight ? 1 : -1) * dashingVelocity * .5f, 0);
+        yield return new WaitForSeconds(dashingTime * .3f);
 
         _body.gravityScale = _defaultGravityScale;
         IsDashing = false;
